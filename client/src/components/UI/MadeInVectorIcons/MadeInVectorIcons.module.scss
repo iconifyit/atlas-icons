@@ -1,0 +1,32 @@
+.madeInVectorIcons {
+    
+    .vectorIconsLogo {
+        @apply mx-auto w-36 block mb-8;
+    }
+
+    h3 {
+        @apply text-center font-medium mb-5 xl:text-[3.25rem] text-2xl sm:text-3xl md:text-4xl lg:text-5xl; 
+    }
+
+    p {
+        @apply mb-8 max-w-4xl mx-auto  text-center xl:text-2xl sm:text-xl text-lg;
+        color: #717171;
+    }
+
+    a {
+        @apply text-lg mb-5 text-center block;
+        &.vectorIconsLink {
+            @apply w-fit mx-auto mb-0;
+        }
+    }
+
+
+
+    .teamMembersContainer {
+        @apply flex justify-center mb-8;
+
+        img {
+            @apply lg:-ml-6 -ml-5 w-12 sm:w-14 md:w-16 lg:w-20
+        }
+    }
+}

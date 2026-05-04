@@ -1,0 +1,13 @@
+.mailListInput {
+    @apply relative md:flex items-center;
+  
+    input {
+      @apply mb-2 md:mb-0 block w-full rounded-lg placeholder:text-[#A0A0A0] border border-[rgba(0,0,0,0.2)] text-sm sm:text-base md:text-base py-4 md:py-4 px-4 md:px-5;
+    }
+    .absoluteDiv {
+      @apply md:absolute inset-y-0 right-0 flex py-1 pr-1 md:py-1.5 md:pr-1.5;
+      button {
+        @apply ml-auto text-white rounded-lg transition disabled:bg-[#796aff] bg-[#3F28FF] hover:bg-[#1B00FC] text-sm sm:text-base md:text-base font-semibold py-3 md:py-0 px-4 md:px-6;
+      }
+    }
+  }

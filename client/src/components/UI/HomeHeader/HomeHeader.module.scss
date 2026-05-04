@@ -1,0 +1,27 @@
+.homeHeader {
+    @apply pt-20 pb-16;
+
+    background-image: url(~/public/images/vectoricons-bg-img.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    h2 {
+        @apply mb-4 xl:text-[4rem] text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+        // font-size: ;
+        font-weight: 600;
+        .underlineSpan {
+            @apply underline underline-offset-4 md:underline-offset-[6px] md:decoration-[6px] lg:underline-offset-8 decoration-4 lg:decoration-8 decoration-[#A1DD1D];
+            foo: bar;
+        }
+    }
+
+    .pageHeading {
+        @apply mb-5 xl:mr-12 md:mr-20 xl:text-[1.65rem] text-lg sm:text-xl ;
+        color: #919191;
+        line-height: 1.5!important;
+    }
+
+    p {
+        @apply  font-semibold text-lg;
+    }
+
+}

@@ -1,0 +1,16 @@
+.packHeading {
+    @apply font-semibold text-xl mb-5;
+}
+
+.codeSnippet {
+    @apply px-4 py-3 rounded-lg mb-8 leading-loose overflow-x-auto whitespace-nowrap;
+    //  overflow-x-auto whitespace-nowrap max-w-full;
+    background-color: #F7F7F7;
+    code {
+        @apply block
+    }
+}
+
+.packP {
+    @apply mb-2 text-gray-600;
+}

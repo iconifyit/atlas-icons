@@ -1,0 +1,48 @@
+.rangeSlider {
+    @apply flex items-center;
+
+    label {
+        @apply mr-2 md:mr-4 text-sm w-16 sm:w-auto font-medium;
+    }
+
+    span {
+        @apply w-12 text-right;
+    }
+
+    input[type=range] {
+        @apply lg:w-40 xl:w-64 grow h-1 bg-[#D2D5D9] rounded-lg appearance-none cursor-pointer;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+
+        height: 12px;
+        width: 12px;
+        border-radius: 6px;
+        background: #7A7A7A;
+        cursor: pointer;
+        -webkit-appearance: none;
+
+    }
+
+    .colorInput {
+
+        @apply flex flex-none items-center relative appearance-none rounded-full border border-gray-200;
+
+        input {
+            // focus:border-none
+            @apply border-none w-24 bg-transparent text-gray-600 font-medium text-sm focus:ring-0;
+        }
+
+        .selectedColor {
+            // bg-black
+            // absolute
+            @apply w-7 h-7 rounded-full
+        }
+    }
+}
+
+
+.hideCategoriesBtn {
+    @apply whitespace-nowrap hidden lg:block font-medium py-2 ml-4 xl:ml-6;
+    color: rgba(0, 0, 0, 0.2);
+}

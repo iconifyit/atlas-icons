@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.container {
+    @apply mx-auto px-3;
+}
+
+
+.searchStickyContainer {
+    @apply mb-10 sticky z-10 -top-px py-5;
+    .search-logo {
+        @apply  transition-all  max-w-0 mr-0;
+    }
+    &.isPinned {
+        @apply bg-white border-b;
+        border-bottom-color: #E0E0E0;
+        .search-logo {
+            @apply  lg:mr-6 lg:max-w-[4rem]; 
+            display: inline-block;
+        }
+        // background-color: red;
+        /* Or anything other than sticky/fixed */ 
+       }
+}
+
+
+.swiper-slide {
+    width: auto!important;
+}
+

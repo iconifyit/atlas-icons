@@ -1,0 +1,19 @@
+.iconSetContainer {
+    @apply flex flex-col h-full;
+    background-color: #FAFAFA;
+    // background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+
+    p {
+        @apply text-xl font-bold ;
+    }
+
+    .badge {
+        // background-color: $info;
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.1;
+    }
+}

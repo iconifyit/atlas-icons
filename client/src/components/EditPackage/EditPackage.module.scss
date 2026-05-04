@@ -1,0 +1,30 @@
+.iconInputGroup {
+    @apply mb-3;
+
+    label {
+        @apply block text-sm font-medium text-gray-700
+    }
+
+    input {
+        @apply block w-full rounded-md border-gray-300 shadow-sm sm:text-sm disabled:bg-gray-100
+    }
+}
+
+
+.addIconsBtn {
+    @apply border-2 cursor-pointer bg-[#3F28FF] hover:bg-[#1B00FC] border-transparent px-12 py-3 ml-5 rounded-lg text-lg font-medium text-white;
+    // background-color: 
+}
+
+
+.saveBtn, .cancelBtn {
+    @apply opacity-90 hover:opacity-100 px-10 py-3 w-36 rounded-lg font-semibold text-[0.95rem] border border-2 border-black;
+}
+
+.saveBtn {
+    @apply text-white bg-black;
+}
+
+.cancelBtn {
+    @apply text-black border border-2 border-black;
+}

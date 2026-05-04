@@ -1,0 +1,26 @@
+.heading {
+  @apply font-semibold text-center mb-4 xl:text-3xl text-xl lg:text-2xl;
+}
+
+.subheading {
+  @apply text-center text-[#919191] mb-5 sm:text-lg ;
+}
+
+.mailListInput {
+  @apply items-center;
+
+  input {
+    @apply mb-4 block w-full rounded-lg placeholder:text-[#A0A0A0] border border-[rgba(0,0,0,0.2)] text-sm sm:text-base md:text-base py-4 md:py-4 px-4 md:px-5;
+  }
+
+  a, button {
+    @apply text-sm sm:text-base font-semibold py-3 px-6;
+  }
+
+  a {
+    @apply  bg-white text-[#919191] text-center;
+  }
+  button {
+    @apply  text-white transition disabled:bg-[#796aff] bg-[#3F28FF] hover:bg-[#1B00FC] rounded-lg;
+  }
+}

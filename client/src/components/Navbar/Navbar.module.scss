@@ -1,0 +1,7 @@
+.navLink {
+    @apply inline-flex text-sm font-medium  leading-6  px-4 py-2 hover:bg-gray-100 rounded-lg;
+}
+
+.activeNavLink {
+    @apply inline-flex cursor-pointer bg-[#3F28FF] hover:bg-[#1B00FC] text-sm font-semibold text-white leading-6 px-4 py-2 rounded-lg;
+}

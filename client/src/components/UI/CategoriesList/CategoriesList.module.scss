@@ -1,0 +1,9 @@
+.categoryBtn {
+    @apply whitespace-nowrap inline-block rounded-full text-xs py-3 px-5 cursor-pointer bg-[#F2F2F2] hover:bg-[#ebebeb];
+    color: #6C6C6C;
+}
+
+.moreCategoriesBtn {
+    @apply whitespace-nowrap font-medium py-2 ml-4 xl:ml-6;
+    color: rgba(0, 0, 0, 0.2);
+}

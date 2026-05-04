@@ -1,0 +1,4 @@
+.BackToTop {
+    @apply fixed cursor-pointer bottom-4 sm:bottom-6 right-4 m-4 shadow-lg bg-[#F2F2F2] rounded-full p-4 hover:bg-[#ebebeb];
+    z-index: 9998;
+}
